@@ -1,4 +1,4 @@
-print('pee sam kub thx for free scr  ')
+print('จารย์ฟิวส์')
 local placeId = game.PlaceId
 if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
     BF = true
@@ -18,7 +18,7 @@ elseif placeId == 2809202155 then
 end
 spawn(function()
 	while wait() do 
-		print("lyx#9999")
+		print("JayKung#8973 ")
 	end
 end)
 if BF then
@@ -314,7 +314,7 @@ if BF then
 		ShowName.TextSize = 20.000
 		ShowName.TextXAlignment = Enum.TextXAlignment.Left
 	
-		NameHub.Name = "NewName"
+		NameHub.Name = "NameHub"
 		NameHub.Parent = TopMain
 		NameHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		NameHub.BackgroundTransparency = 1.000
@@ -2661,7 +2661,7 @@ if BF then
 		local foundAnything = ""
 		local actualHour = os.date("!*t").hour
 		local Deleted = false
-		 --[[
+		
 		 local File = pcall(function()
 			AllIDs = game:GetService('HttpService'):JSONDecode(readfile("NotSameServers.json"))
 		 end)
@@ -2669,7 +2669,7 @@ if BF then
 			table.insert(AllIDs, actualHour)
 			writefile("NotSameServers.json", game:GetService('HttpService'):JSONEncode(AllIDs))
 		 end
-		 ]]
+		 
 		function TPReturner()
 			local Site;
 			if foundAnything == "" then
@@ -4307,7 +4307,7 @@ if BF then
 								if Questtween then Questtween:Stop() end
 								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameQuest
 								wait(.9)
-								local string_1 = "StartQuest";
+								local string_1 = StartQuest;
 								local string_2 = NameQuest;
 								local number_1 = LevelQuest;
 								local Target = game:GetService("ReplicatedStorage").Remotes["CommF_"];
@@ -4409,7 +4409,7 @@ if BF then
 								if Questtween then Questtween:Stop() end
 								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameQuest
 								wait(1)
-								local string_1 = "StartQuest";
+								local string_1 = StartQuest;
 								local string_2 = NameQuest;
 								local number_1 = LevelQuest;
 								local Target = game:GetService("ReplicatedStorage").Remotes["CommF_"];
@@ -4515,7 +4515,7 @@ if BF then
 								if Questtween then Questtween:Stop() end
 								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrameQuest
 								wait(1)
-								local string_1 = "StartQuest";
+								local string_1 = StartQuest;
 								local string_2 = NameQuest;
 								local number_1 = LevelQuest;
 								local Target = game:GetService("ReplicatedStorage").Remotes["CommF_"];
@@ -4934,7 +4934,7 @@ if BF then
 		end)
 	end)
 	
-	local Main = library:Window("Ren","Blox Fruit 1.18.2.4.5WeP")
+	local Main = library:Window("JAK HUB","Blox Fruit 0.01")
 	local AutoFarmTab = Main:Tab("Auto Farm")
 	local MainAutoFarmFunction = AutoFarm(Ms,NameQuest,LevelQuest,NameMon,CFrameMon,CFrameQuest,"AutoFarmLevel")
 	spawn(function()
@@ -7010,13 +7010,13 @@ if BF then
 					for i,v in pairs(game:GetService("Workspace"):GetChildren()) do 
 						if v.Name:find("Chest") then
 							if game:GetService("Workspace"):FindFirstChild(v.Name) then
-								if (v.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 5000+_G.MagnitudeAdd then
+								if (v.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 500+_G.MagnitudeAdd then
 									repeat wait()
 										if game:GetService("Workspace"):FindFirstChild(v.Name) then
 											SlowtoTarget(v.CFrame)
 										end
 									until AutoFarmChest == false or not v.Parent
-									_G.MagnitudeAdd = _G.MagnitudeAdd+1500
+									_G.MagnitudeAdd = _G.MagnitudeAdd+500
 								end
 							end
 						end
@@ -10705,6 +10705,7 @@ if BF then
 	end)
 	MiscTab:Toggle("Infinits Range observations haki",false,function(Value)
 		infobservations = Value
+		infinitestam()
 	end)
 	spawn(function()
 		while wait() do
@@ -17289,7 +17290,7 @@ if BOKU then
         end
         return Tabs
     end
-    local win = Flux:Window("Pond Hub", "Boku No Roblox", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("Ren Hub", "Boku No Roblox", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local Setting = win:Tab("Setting Tab","http://www.roblox.com/asset/?id=6022668888")
     local Main = win:Tab("Main Tab","http://www.roblox.com/asset/?id=6022668888")
     local Stats = win:Tab("Stats Tab","http://www.roblox.com/asset/?id=6022668888")
@@ -24581,7 +24582,7 @@ local SaveSettings = {
         ['AutoBuy'] = false,
     },
     ["Setting"] = {
-        ["FpsCap"] = 120,
+        ["FpsCap"] = 60,
         ["FpsLock"] = false,
         ["Distance"] = 5,
     },
@@ -26478,7 +26479,7 @@ if checkgame[game.PlaceId].Title == "Your Bizarre Adventure" then
 
     --scoll frame
     Pg1:Button("Copy Discord inv",function()
-        setclipboard("https://discord.gg/mPUD2Gr9A4")
+        setclipboard("*******")
     end)
     Pg1:Button("Serverhop",function()
         pcall(function()
@@ -27227,7 +27228,7 @@ game:GetService("Players").LocalPlayer.Character.RemoteEvent:FireServer("Attack"
             end
         end
     end)
---[[
+
     local _ = spawn(function()
         while true do wait()
             if godmode.type then
@@ -27236,7 +27237,7 @@ game:GetService("Players").LocalPlayer.Character.RemoteEvent:FireServer("Attack"
                 end)
             end
         end
-    end)]]
+    end
 
     local _ = spawn(function()
         while true do wait()
